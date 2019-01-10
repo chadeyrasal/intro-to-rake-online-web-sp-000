@@ -18,5 +18,5 @@ namespace :db do
 end
 
 task :environment do
-  
+  require_relative ''
 end
