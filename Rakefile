@@ -22,7 +22,7 @@ namespace :db do
   end
 end
 
-
+desc 'gives access to where the Student class and databse are loaded'
 task :environment do
   require_relative './config/environment'
 end
